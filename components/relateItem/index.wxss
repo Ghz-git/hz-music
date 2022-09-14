@@ -1,0 +1,21 @@
+/* components/relateItem/index.wxss */
+.relate-item {
+  display: flex;
+  margin-bottom: 18rpx;
+}
+.relate-item_l {
+  width: 360rpx;
+}
+.img {
+  width: 100%;
+  border-radius: 12rpx;
+}
+.relate-item_r {
+  width: 100%;
+  padding: 0 26rpx 0 20rpx;
+  font-size: 30rpx;
+}
+.creator {
+  color: #9e9d9d;
+  font-size: 28rpx;
+}

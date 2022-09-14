@@ -1,0 +1,10 @@
+<!--components/relateItem/index.wxml-->
+<view class="relate-item">
+  <view class="relate-item_l">
+    <image src="{{itemData.coverUrl}}" mode="widthFix" class="img"></image>
+  </view>
+  <view class="relate-item_r">
+    <view class="txt">{{itemData.title}}</view>
+    <view class="creator">{{itemData.creator[0].userName}}</view>
+  </view>
+</view>

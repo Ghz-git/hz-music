@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "relate-item": "/components/relateItem"
+  }
+}

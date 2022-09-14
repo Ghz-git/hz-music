@@ -1,0 +1,6 @@
+<!--pages/home-video/index.wxml-->
+<view class="list">
+  <view wx:for="{{mvList}}" wx:key="id" class="list-item">
+    <video-item itemData="{{item}}"></video-item>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/home-music/index",
+    "pages/home-video/index",
+    "pages/detail-video/index"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "音乐",
+        "pagePath": "pages/home-music/index",
+        "iconPath": "assets/images/tabbar/music_normal.png",
+        "selectedIconPath": "assets/images/tabbar/music_active.png"
+      },
+      {
+        "text": "视频",
+        "pagePath": "pages/home-video/index",
+        "iconPath": "assets/images/tabbar/video_normal.png",
+        "selectedIconPath": "assets/images/tabbar/video_active.png"
+      }
+    ]
+  }
+}
