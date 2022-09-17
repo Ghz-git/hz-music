@@ -1,0 +1,32 @@
+/* components/songItem/index.wxss */
+.song-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.img {
+  height: 120rpx;
+  border-radius: 12rpx;
+}
+.content {
+  max-width: 400rpx;
+  flex: 1;
+  margin-left: 16rpx;
+}
+.name,
+.nick {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #333;
+}
+.nick {
+  color: #888;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.arrow {
+  height: 50rpx;
+  margin-left: auto;
+}

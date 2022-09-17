@@ -1,0 +1,9 @@
+<!--components/songItem/index.wxml-->
+<view class="song-item">
+  <image src="{{itemData.coverImgUrl}}" mode="heightFix" class="img"></image>
+  <view class="content">
+    <view class="name">{{itemData.name}}</view>
+    <view class="nick">作者：{{itemData.subscribers[0].nickname}}</view>
+  </view>
+  <image src="../../assets/images/icons/arrow-right.png" mode="heightFix" class="arrow"></image>
+</view>

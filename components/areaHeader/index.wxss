@@ -1,0 +1,23 @@
+/* components/area-header/index.wxss */
+.area-header {
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  color: #333;
+  font-size: 30rpx;
+}
+.default {
+  display: none;
+  align-items: center;
+}
+.img {
+  width: 46rpx;
+}
+
+.left .slot:empty + .default{
+  display: flex;
+}

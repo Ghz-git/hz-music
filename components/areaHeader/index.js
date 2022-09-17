@@ -1,12 +1,12 @@
-// components/relateItem/index.js
+// components/area-header/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    itemData: {
-      type: Object,
-      value: {}
+    title: {
+      type: String,
+      value: "",
     }
   },
 

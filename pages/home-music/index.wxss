@@ -1,1 +1,30 @@
 /* pages/home-music/index.wxss */
+page {
+  padding: 0 20rpx;
+}
+.van-search {
+  padding: 10px 0!important;
+}
+.van-search__content {
+  background: #fff!important;
+}
+.swiper {
+  border-radius: 12rpx;
+  overflow: hidden;
+  /* 由于手机系统webview的问题，有时候圆角会展示不全，通过添加transform在解决 */
+  transform: translate(0);
+}
+.swiper-item {
+  width: 100%;
+}
+.song-list,
+.hot-song {
+  margin-top: 30rpx;
+  padding-bottom: 20rpx;
+}
+.hot-song {
+  white-space: nowrap;
+  width: 100vw;
+  position: relative;
+  left: -20rpx;
+}

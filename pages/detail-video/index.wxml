@@ -1,5 +1,8 @@
 <wxs src="../../utils/format.wxs" module="format" />
-<video class="video" src="{{url.url}}"></video>
+<video 
+  class="video"
+  src="{{url.url}}"
+  referrer-policy="origin" />
 <scroll-view scroll-y="true" class="wrapper">
   <view class="title">{{detailList.name}}</view>
   <view class="artist">{{detailList.artistName}}</view>

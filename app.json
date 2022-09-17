@@ -2,7 +2,8 @@
   "pages": [
     "pages/home-music/index",
     "pages/home-video/index",
-    "pages/detail-video/index"
+    "pages/detail-video/index",
+    "pages/search-page/index"
   ],
   "tabBar": {
     "list": [
@@ -19,5 +20,12 @@
         "selectedIconPath": "assets/images/tabbar/video_active.png"
       }
     ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "window": {
+    "navigationBarBackgroundColor": "#fafafa",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "hz-music",
+    "backgroundColor": "#fafafa"
   }
 }

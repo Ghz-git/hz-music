@@ -28,7 +28,10 @@ export function getMvUrl (id) {
     id
   })
 }
-
+/**
+ * 相关视频
+ * @param {*} id 
+ */
 export function getMvRelated (id) {
   return hzRequest.get("/related/allvideo", {
     id

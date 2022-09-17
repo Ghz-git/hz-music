@@ -1,0 +1,7 @@
+<!--components/song-menu/index.wxml-->
+<view class="song-menu">
+  <view class="song-menu__top">
+    <image src="{{itemData.coverImgUrl}}" mode="widthFix" class="img"></image>
+  </view>
+  <text class="txt">{{itemData.name}}</text>
+</view>
